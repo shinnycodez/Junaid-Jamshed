@@ -1,0 +1,116 @@
+#logo{
+    height: 50px;
+}
+#navbar{
+    height: 45px;
+    margin-bottom: -10px;
+}
+#logo-container{
+  top:-5px;
+}
+#header{
+    margin-top: 93px;
+}
+#cast{
+    width: 128px;
+    height: 42px;
+    margin-top: -12px;
+}
+.shop-now{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    position: relative;
+    top: -18px;
+}
+.shop-now:hover{
+    opacity: 0.5;
+}
+body,html{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.mob-screen{
+    background-color: white;
+}
+
+@media (max-width: 769px) {
+    .custom-mt-sm {
+      margin-top: 100px; /* Adjust the value as needed */
+    }
+    #contaner{
+        margin-right: 0px;
+      }
+      .margin-0{
+        margin-right: 0px;
+        padding: 0px;
+      }
+      body,html{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #carousel{
+        overflow: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
+    .small{
+        margin-top: 20px;
+    }
+    .big{
+       padding-top: 20px;
+    }
+    .center{
+        text-align: center;
+    }
+    .big-image{
+        margin-bottom: 20px;
+    }
+  }
+  #carousel{
+    overflow: none;
+    margin: 0px;
+    padding: 0px;
+}
+  @media(min-width:769px){
+    .big{
+        height: 900px;
+        width: 800px;
+    }
+    .small{
+        height: 400px;
+        width: 300px;
+        display: block;
+
+    }
+    #container{
+        margin-left: 250px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    #width{
+        width: 324px;
+      }
+      .big-image{
+        width: 70%;
+        height: 400px;
+        position: relative;
+        left: -30px;
+        background-color:bisque;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .big-image img{
+        width: 80%;
+      }
+  }
+
+
+  
+
+  
