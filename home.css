@@ -10,6 +10,7 @@
 }
 #header{
     margin-top: 93px;
+    box-shadow: 0px 4px 8px -7px rgba(0, 0, 0, 0.75);
 }
 #cast{
     width: 128px;
@@ -48,7 +49,6 @@ body,html{
         padding: 0px;
       }
       body,html{
-        width: 100%;
         margin: 0px;
         padding: 0px;
     }
@@ -69,12 +69,26 @@ body,html{
     .big-image{
         margin-bottom: 20px;
     }
+    #carousel{
+        overflow: none;
+        margin-right: -200px;
+        padding: 0px;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .girl-big{
+        width: 100%;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .three-image{
+        margin-top: 20px;
+    }
   }
-  #carousel{
-    overflow: none;
-    margin: 0px;
-    padding: 0px;
-}
   @media(min-width:769px){
     .big{
         height: 900px;
@@ -98,19 +112,45 @@ body,html{
         width: 70%;
         height: 400px;
         position: relative;
-        left: -30px;
+        left: -6px;
         background-color:bisque;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 150px;
       }
       .big-image img{
         width: 80%;
       }
+      body,html{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #boys-and-girls{
+        margin-left: 80px;
+    }
+    .row-custom{
+        width: 93%;
+    }
+    .three-image{
+        height: 320px;
+        width: 210px;
+        margin-left: 30px;
+    }
+    .heading{
+        font-size: 70px;
+        font-weight: 900;
+    }
+    .girl-big{
+        height: 480px;
+        width: 550px;
+    }
   }
-
-
+#margin-0{
+    margin-right: 0px;
+    padding: 0px;
+}
   
 
   
