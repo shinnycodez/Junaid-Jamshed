@@ -43,8 +43,11 @@ body,html{
     .custom-mt-sm {
       margin-top: 100px; /* Adjust the value as needed */
     }
-    #contaner{
+    .container{
         margin-right: 0px;
+        padding: 0px;
+        margin-left: 0px;
+        width: 100%;
       }
       .margin-0{
         margin-right: 0px;
@@ -94,20 +97,28 @@ body,html{
         height: 900px;
         width: 800px;
     }
+    .second-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+      }
     .small{
         height: 400px;
         width: 300px;
         display: block;
 
     }
-    #container{
-        margin-left: 250px;
-        margin-right: 0px;
-        margin-top: 30px;
+    .container-custom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* max-width: 85%; */
     }
-    #width{
+    /* #width{
         width: 324px;
-      }
+      } */
       .big-image{
         width: 70%;
         height: 400px;
@@ -128,10 +139,10 @@ body,html{
         padding: 0px;
     }
     #boys-and-girls{
-        margin-left: 80px;
+        margin-left: 10px;
     }
     .row-custom{
-        width: 93%;
+        width: 100%;
     }
     .three-image{
         height: 320px;
@@ -146,6 +157,12 @@ body,html{
         height: 480px;
         width: 550px;
     }
+    .flex-direction{
+        margin-left: -10px;
+    }
+    #auto{
+        width: 330px;
+    }
   }
 #margin-0{
     margin-right: 0px;
@@ -154,10 +171,26 @@ body,html{
 .low-margin{
     margin-bottom: 0px;
 }
-@media(max-width:1088px){
-    #boys-and-girls{
-        margin-left: 0px;
-        width: 100%;
-    }
+.be-the-first{
+    font-size: 23px;
+    font-weight: 500;
+}
+.para{
+    font-size: 19px;
+}
+.w{
+    width: 40vw;
+    margin-top: 10px;
+}
+.flex-direction{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up{
+    border: 2px solid white;
+    color: white;
+    height: 50px;
+    margin-left: 20px;
 }
   
